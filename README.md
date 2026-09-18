@@ -36,6 +36,20 @@ For every material result, I keep the state visible:
 
 I do not present a proposal as a repair, a local test as upstream acceptance, or an open pull request as a completed result.
 
+## A transparent collaboration record
+
+![Estimated contribution split for an evidence-bound repair](assets/fhir-5679-contribution-split.svg)
+
+### FHIR Server diagnostic repair
+
+For [microsoft/fhir-server issue #5679](https://github.com/microsoft/fhir-server/issues/5679) and [pull request #5829](https://github.com/microsoft/fhir-server/pull/5829), this is the honest estimated split of the work:
+
+- **35% Human leadership and authority:** I selected the goal, set the boundaries, approved the submission, and retain the final decision.
+- **40% AI-assisted technical execution:** AI helped inspect, diagnose, draft, remediate, and run reproducible checks.
+- **25% CML/Fermata integrity method:** CML and Fermata kept scope, evidence status, verification, and handoff explicit.
+
+This is an estimate of contribution to the process, not a legal authorship, ownership, or upstream-acceptance claim. CML/Fermata is a human-governed method, not a separate author.
+
 ## Available for focused work
 
 I am open to well-scoped, evidence-friendly assignments involving:
