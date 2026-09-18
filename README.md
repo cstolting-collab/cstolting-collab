@@ -1,4 +1,4 @@
-# Sherrie Joseph
+# S. J. 
 
 ### CML / Fermata - Human-led, AI-assisted engineering
 
