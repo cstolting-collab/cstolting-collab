@@ -1,16 +1,53 @@
-## Hi there 👋
+# Sherrie Joseph
 
-<!--
-**cstolting-collab/cstolting-collab** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### CML / Fermata - Human-led, AI-assisted engineering
 
-Here are some ideas to get you started:
+> Trust Through Continuity.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I design and build systems for disciplined AI-assisted work. My focus is not asking an AI to "fix things" without accountability. I use **Continuity Markup Language (CML)** and the **Fermata** workflow to keep the assignment, scope, evidence, tests, decisions, and handoff visible from start to finish.
+
+## How I work
+
+- **Human-led:** I choose the goal, approve the scope, review the work, and own the final decision.
+- **Evidence-bound:** A local change, a passing test, upstream review, and a merged result are different states. I do not blur them together.
+- **Focused:** I start with the smallest useful task, protect the stated boundaries, and avoid unrelated changes.
+- **Review-ready:** I prepare clear diffs, relevant checks, and an honest handoff for maintainers or collaborators.
+- **Quiet integrity:** The work record matters more than hype. Reviews, receipts, and follow-through are the proof.
+
+## What I am building
+
+- **Continuity Markup Language (CML):** an experimental, renderer- and domain-neutral language and associated tooling for representing, validating, inspecting, and reporting continuity and state constraints.
+- **Fermata:** a local, human-governed workflow for reading, verifying, preparing, testing, documenting, and handing off technical work. It stops before external actions.
+- **CML reference tooling:** compiler, validation, canonical export, adapters, and reproducible checks for continuity-focused workflows.
+
+## Working with AI responsibly
+
+AI can help inspect, explain, draft, test, and prepare work. It does not replace responsibility.
+
+For every material result, I keep the state visible:
+
+- `IMPLEMENTED` - changed in a named artifact with direct evidence.
+- `VERIFIED` - checked against a reproducible test or authoritative record.
+- `OBSERVED` - directly seen but not independently reverified.
+- `INFERENCE` - a reasoned conclusion from the available evidence, not direct proof.
+- `HYPOTHESIS` - a testable explanation that remains unproven.
+- `PROPOSAL` - suggested, not yet performed.
+- `UNKNOWN` - not established by available evidence.
+
+I do not present a proposal as a repair, a local test as upstream acceptance, or an open pull request as a completed result.
+
+## Available for focused work
+
+I am open to well-scoped, evidence-friendly assignments involving:
+
+- GitHub issue or review investigation
+- Small repair preparation with relevant tests
+- Documentation, workflow, and release-readiness review
+- AI-assisted evaluation or continuity-focused tooling
+- Clear technical handoffs for a maintainer's review
+
+If you have a bounded task, open an issue with the goal, affected area, constraints, and expected handoff. I will respond with the scope I can honestly support.
+
+---
+
+**Human-led. AI-assisted. Evidence-bound.**
