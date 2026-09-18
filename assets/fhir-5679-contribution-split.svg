@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" role="img" aria-labelledby="title desc">
+  <title id="title">Estimated contribution split for a FHIR Server diagnostic repair</title>
+  <desc id="desc">Human leadership and authority 35 percent, AI-assisted technical execution 40 percent, and CML/Fermata integrity method 25 percent.</desc>
+  <rect width="900" height="320" rx="18" fill="#0d1117"/>
+  <text x="42" y="53" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">Human-led, AI-assisted engineering</text>
+  <text x="42" y="83" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="16">Estimated contribution split — FHIR Server diagnostic repair #5679</text>
+
+  <path d="M 170 185 L 170 83 A 102 102 0 0 1 229.95 267.57 Z" fill="#a371f7"/>
+  <path d="M 170 185 L 229.95 267.57 A 102 102 0 0 1 68 185 Z" fill="#3fb950"/>
+  <path d="M 170 185 L 68 185 A 102 102 0 0 1 170 83 Z" fill="#58a6ff"/>
+  <circle cx="170" cy="185" r="53" fill="#0d1117"/>
+  <text x="170" y="181" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">100%</text>
+  <text x="170" y="205" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="13" text-anchor="middle">documented work</text>
+
+  <circle cx="348" cy="142" r="10" fill="#3fb950"/>
+  <text x="372" y="148" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">35% Human leadership &amp; authority</text>
+  <text x="372" y="172" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="15">Goal, boundaries, approval, and final accountability</text>
+
+  <circle cx="348" cy="208" r="10" fill="#a371f7"/>
+  <text x="372" y="214" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">40% AI-assisted technical execution</text>
+  <text x="372" y="238" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="15">Inspection, diagnosis, remediation, and reproducible checks</text>
+
+  <circle cx="348" cy="274" r="10" fill="#58a6ff"/>
+  <text x="372" y="280" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">25% CML/Fermata integrity method</text>
+  <text x="372" y="304" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="15">Scope, evidence status, verification, and handoff discipline</text>
+</svg>
