@@ -50,6 +50,10 @@ For [microsoft/fhir-server issue #5679](https://github.com/microsoft/fhir-server
 
 This is an estimate of contribution to the process, not a legal authorship, ownership, or upstream-acceptance claim. CML/Fermata is a human-governed method, not a separate author.
 
+## Public GitHub work record
+
+I keep a separate [CML GitHub Work Record](https://github.com/cstolting-collab/CML-GitHub-Work-Record) with source-linked PR cards, outcome status, and daily evidence journals. It covers only work I actively handle; an open PR remains open until upstream evidence establishes more.
+
 ## Available for focused work
 
 I am open to well-scoped, evidence-friendly assignments involving:
