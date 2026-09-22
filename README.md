@@ -2,27 +2,22 @@
 
 **Continuity engineering for human-led work.**
 
-I am building **CML** — Continuity Markup Language — and **Fermata**: a way to preserve meaning, state, timing, evidence, and human authority as work moves between people and tools.
+CML is **Continuity Markup Language**. Fermata is the human-led method around it. Together, they ask one practical question: when work changes hands, tools, speed, or form, what must remain true?
+
+![Continuity Map: CML, Fermata, evidence, and human authority.](assets/continuity-map.svg)
+
+## Follow a route
+
+- **CML** — state → handoff → continuity → validation → next actor
+- **Fermata** — observe → HOLD → check → release
+- **Evidence** — implemented → verified → observed → claim boundary
+- **Human authority** — approval remains explicit for external work and final claims
 
 ## Start here
 
 - [CML GitHub Work Record](https://github.com/cstolting-collab/CML-GitHub-Work-Record) — public, evidence-bound engineering record
 - [Latest evidence journal](https://github.com/cstolting-collab/CML-GitHub-Work-Record/blob/main/journals/2026-09-22.md)
 - [Performance evidence standard](https://github.com/cstolting-collab/CML-GitHub-Work-Record/blob/main/standards/real-workload-performance.md)
-
-## What the work protects
-
-- **State** — what is true now should survive the handoff.
-- **Meaning** — compression should remove noise, not the important signal.
-- **Timing** — rhythm, pacing, and drift can reveal a continuity break.
-- **Evidence** — implementation, verification, observation, and inference stay separate.
-- **Human authority** — a person retains control of external messages, merges, submissions, payments, and final claims.
-
-`state → handoff → ownership → validation → next actor → human authority`
-
-## The working vocabulary
-
-`continuity` · `compression` · `harmonic continuity` · `5–7 word clarity` · `algebraic relationships` · `tempo / grid` · `validation`
 
 ## One verified engineering result
 
@@ -34,7 +29,7 @@ For [OpenAI Agents Python #5088](https://github.com/openai/openai-agents-python/
 
 ## Public boundary
 
-The internal workflow wrapper is not published. This page shows the public ideas, evidence, and engineering record — not private operating mechanics.
+The internal workflow wrapper is not published. The public record shows the ideas, evidence, and engineering outcomes—not private operating mechanics.
 
 ---
 
