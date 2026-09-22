@@ -86,7 +86,7 @@ Recent evidence:
 
 - [OpenAI Agents Python #5088 — verified Modal performance evidence](https://github.com/cstolting-collab/CML-GitHub-Work-Record/blob/main/journals/2026-09-22.md)
 - [Real-Workload Performance Evidence Standard](https://github.com/cstolting-collab/CML-GitHub-Work-Record/blob/main/standards/real-workload-performance.md)
-- [OpenAI Codex Security #973 validation record](https://github.com/cstolting-collab/CML-GitHub-Work-Record/blob/main/journals/2026-09-22.md#openai-agents-python-5088--native-modal-read-candidate)
+- [OpenAI Codex Security #973 validation record](https://github.com/cstolting-collab/CML-GitHub-Work-Record/blob/main/journals/2026-09-22.md)
 
 ## Collaboration
 
