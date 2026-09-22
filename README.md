@@ -50,9 +50,20 @@ For [microsoft/fhir-server issue #5679](https://github.com/microsoft/fhir-server
 
 This is an estimate of contribution to the process, not a legal authorship, ownership, or upstream-acceptance claim. CML/Fermata is a human-governed method, not a separate author.
 
-## Public GitHub work record
+## Public documentation and work record
 
-I keep a separate [CML GitHub Work Record](https://github.com/cstolting-collab/CML-GitHub-Work-Record) with source-linked PR cards, outcome status, and daily evidence journals. It covers only work I actively handle; an open PR remains open until upstream evidence establishes more.
+Public documentation is maintained in the [CML GitHub Work Record](https://github.com/cstolting-collab/CML-GitHub-Work-Record).
+
+It contains:
+- source-linked engineering records
+- exact revisions and validation evidence
+- CI results and unresolved gates
+- dated journals and handoff state
+- CML/Fermata workflow documentation
+
+The public record separates **implemented**, **verified**, **observed**, and **unresolved** states. An open pull request is never presented as a completed result, and a local or fork validation run is never presented as upstream acceptance.
+
+Current public example: [OpenAI Go PR #932](https://github.com/openai/openai-go/pull/932), where the current contribution was synchronized to upstream, repaired after independent CI exposed a regression-fixture defect, and revalidated through lint, Go 1.25/1.26 tests, supported-version checks, govulncheck, CodeQL, and Castiron. Upstream OpenAI CI authorization remains a separate gate.
 
 ## Available for focused work
 
