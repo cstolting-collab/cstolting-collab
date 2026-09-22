@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">CML Fermata public concept map and verified evidence</title>
+<desc id="desc">Five equal concept segments for compression, continuity, concise understanding, algebraic relationships, and tempo grid, beside verified OpenAI Agents Python performance evidence.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0%" stop-color="#0b1220"/>
+    <stop offset="100%" stop-color="#13233a"/>
+  </linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="6" stdDeviation="10" flood-opacity="0.18"/>
+  </filter>
+</defs>
+<rect width="1200" height="720" rx="28" fill="url(#bg)"/>
+<text x="60" y="70" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700">CML / Fermata — Continuity Engineering</text>
+<text x="60" y="108" fill="#b9c8db" font-family="Segoe UI, Arial, sans-serif" font-size="20">Public concept map + verified engineering evidence</text>
+
+<rect x="50" y="145" width="510" height="500" rx="24" fill="#ffffff" filter="url(#shadow)"/>
+<text x="82" y="190" fill="#0f1f33" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">What I built around continuity</text>
+<text x="82" y="220" fill="#607087" font-family="Segoe UI, Arial, sans-serif" font-size="15">Equal segments = concepts, not percentages or ownership.</text>
+
+<!-- donut -->
+<g transform="translate(0,8)">
+  <path d="M 305 355 L 305 255 A 100 100 0 0 1 400.106 324.098 Z" fill="#4f8cff"/>
+  <path d="M 305 355 L 400.106 324.098 A 100 100 0 0 1 363.779 435.902 Z" fill="#34b27b"/>
+  <path d="M 305 355 L 363.779 435.902 A 100 100 0 0 1 246.221 435.902 Z" fill="#f1ad3d"/>
+  <path d="M 305 355 L 246.221 435.902 A 100 100 0 0 1 209.894 324.098 Z" fill="#9b6ce3"/>
+  <path d="M 305 355 L 209.894 324.098 A 100 100 0 0 1 305 255 Z" fill="#e86969"/>
+  <circle cx="305" cy="355" r="54" fill="#ffffff"/>
+  <text x="305" y="348" text-anchor="middle" fill="#0f1f33" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">CML /</text>
+  <text x="305" y="371" text-anchor="middle" fill="#0f1f33" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Fermata</text>
+</g>
+
+<g font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#23354b">
+  <circle cx="95" cy="500" r="7" fill="#4f8cff"/><text x="112" y="506"><tspan font-weight="700">Compression</tspan><tspan fill="#66758a"> — less noise, denser signal</tspan></text>
+  <circle cx="95" cy="535" r="7" fill="#34b27b"/><text x="112" y="541"><tspan font-weight="700">Continuity</tspan><tspan fill="#66758a"> — state stays coherent</tspan></text>
+  <circle cx="95" cy="570" r="7" fill="#f1ad3d"/><text x="112" y="576"><tspan font-weight="700">5–7 word clarity</tspan><tspan fill="#66758a"> — concise understanding</tspan></text>
+  <circle cx="95" cy="605" r="7" fill="#9b6ce3"/><text x="112" y="611"><tspan font-weight="700">Algebraic relationships</tspan><tspan fill="#66758a"> — constraints + structure</tspan></text>
+  <circle cx="95" cy="640" r="7" fill="#e86969"/><text x="112" y="646"><tspan font-weight="700">Tempo / grid</tspan><tspan fill="#66758a"> — timing + repeatable rhythm</tspan></text>
+</g>
+
+<rect x="590" y="145" width="560" height="500" rx="24" fill="#ffffff" filter="url(#shadow)"/>
+<text x="625" y="190" fill="#0f1f33" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">Verified engineering evidence</text>
+<text x="625" y="220" fill="#607087" font-family="Segoe UI, Arial, sans-serif" font-size="15">OpenAI Agents Python #5088 — fork validation</text>
+
+<g font-family="Segoe UI, Arial, sans-serif">
+  <text x="625" y="285" fill="#607087" font-size="15">EXACT-HEAD CI</text>
+  <text x="625" y="330" fill="#0f1f33" font-size="40" font-weight="700">18 / 18 passed</text>
+  <text x="625" y="360" fill="#34a36f" font-size="18" font-weight="700">0 failed · 0 pending</text>
+
+  <line x1="625" y1="392" x2="1115" y2="392" stroke="#dbe4ef"/>
+
+  <text x="625" y="430" fill="#607087" font-size="15">LIVE MODAL READ WORKLOAD</text>
+  <text x="625" y="474" fill="#0f1f33" font-size="24" font-weight="700">Shell baseline</text>
+  <text x="1060" y="474" text-anchor="end" fill="#0f1f33" font-size="24" font-weight="700">3.4937s</text>
+
+  <text x="625" y="515" fill="#0f1f33" font-size="24" font-weight="700">Native read</text>
+  <text x="1060" y="515" text-anchor="end" fill="#0f1f33" font-size="24" font-weight="700">2.7945s</text>
+
+  <text x="625" y="565" fill="#1b7f59" font-size="34" font-weight="700">−20.0% median</text>
+  <text x="625" y="595" fill="#607087" font-size="15">Correctness parity verified before timing.</text>
+  <text x="625" y="620" fill="#607087" font-size="15">CML/Fermata human-time savings: NOT YET MEASURED.</text>
+</g>
+
+<text x="60" y="690" fill="#b9c8db" font-family="Segoe UI, Arial, sans-serif" font-size="15">Concept map, not labor attribution. Internal workflow mechanics intentionally omitted.</text>
+</svg>

@@ -1,81 +1,98 @@
-# S. J. 
+# S. J.
 
-### CML / Fermata - Human-led, AI-assisted engineering
+## CML / Fermata — Continuity Engineering
 
-> Trust Through Continuity.
+> **Trust Through Continuity.**
 
-I design and build systems for disciplined AI-assisted work. My focus is not asking an AI to "fix things" without accountability. I use **Continuity Markup Language (CML)** and the **Fermata** workflow to keep the assignment, scope, evidence, tests, decisions, and handoff visible from start to finish.
+I am building a human-led way to make AI-assisted technical work **clearer, more continuous, and easier to verify**.
 
-## How I work
+My work began with a practical question: *what happens when complex work has to survive compression, timing, tool changes, long handoffs, and repeated validation without losing its meaning?*
 
-- **Human-led:** I choose the goal, approve the scope, review the work, and own the final decision.
-- **Evidence-bound:** A local change, a passing test, upstream review, and a merged result are different states. I do not blur them together.
-- **Focused:** I start with the smallest useful task, protect the stated boundaries, and avoid unrelated changes.
-- **Review-ready:** I prepare clear diffs, relevant checks, and an honest handoff for maintainers or collaborators.
-- **Quiet integrity:** The work record matters more than hype. Reviews, receipts, and follow-through are the proof.
+That led me to **Continuity Markup Language (CML)** and **Fermata**.
 
-## What I am building
+![CML / Fermata concept map and verified evidence](assets/cml-fermata-concept-evidence.svg)
 
-- **Continuity Markup Language (CML):** an experimental, renderer- and domain-neutral language and associated tooling for representing, validating, inspecting, and reporting continuity and state constraints.
-- **Fermata:** a local, human-governed workflow for reading, verifying, preparing, testing, documenting, and handing off technical work. It stops before external actions.
-- **CML reference tooling:** compiler, validation, canonical export, adapters, and reproducible checks for continuity-focused workflows.
+## What I built
 
-## Working with AI responsibly
+CML/Fermata brings together several ideas I have been studying and testing:
 
-AI can help inspect, explain, draft, test, and prepare work. It does not replace responsibility.
+| Area | What it is trying to protect |
+| --- | --- |
+| **Compression** | Reduce noise while preserving the important state. |
+| **Harmonic continuity** | Keep related work coherent as it moves across steps and tools. |
+| **5–7 word clarity** | Compress instructions into short, stable units that are easier to understand and carry forward. |
+| **Algebraic relationships** | Treat constraints, dependencies, and state changes as relationships that can be checked rather than guessed. |
+| **Music tempo / grid thinking** | Use timing, pacing, repetition, and rhythm as a way to reason about continuity and drift. |
+| **Validation** | Use lint, tests, CI, benchmarks, and exact revisions to prove what actually happened. |
 
-For every material result, I keep the state visible:
+These are public descriptions of the concepts. The internal orchestration and workflow mechanics are intentionally not published here.
 
-- `IMPLEMENTED` - changed in a named artifact with direct evidence.
-- `VERIFIED` - checked against a reproducible test or authoritative record.
-- `OBSERVED` - directly seen but not independently reverified.
-- `INFERENCE` - a reasoned conclusion from the available evidence, not direct proof.
-- `HYPOTHESIS` - a testable explanation that remains unproven.
-- `PROPOSAL` - suggested, not yet performed.
-- `UNKNOWN` - not established by available evidence.
+## Why it matters
 
-I do not present a proposal as a repair, a local test as upstream acceptance, or an open pull request as a completed result.
+AI can generate a lot of output. The harder problem is keeping work coherent from the first instruction to the final verified result.
 
-## A transparent collaboration record
+I use CML/Fermata to support work that is:
 
-![Estimated contribution split for an evidence-bound repair](assets/fhir-5679-contribution-split.svg)
+**compressed without becoming vague · continuous without becoming rigid · structured without losing human judgment · timed without rushing · verified before being called complete**
 
-### FHIR Server diagnostic repair
+The goal is not autonomous software making decisions for people. The goal is a system that keeps enough context, evidence, and structure intact for a human to remain in control.
 
-For [microsoft/fhir-server issue #5679](https://github.com/microsoft/fhir-server/issues/5679) and [pull request #5829](https://github.com/microsoft/fhir-server/pull/5829), this is the honest estimated split of the work:
+## What has been measured
 
-- **35% Human leadership and authority:** I selected the goal, set the boundaries, approved the submission, and retain the final decision.
-- **40% AI-assisted technical execution:** AI helped inspect, diagnose, draft, remediate, and run reproducible checks.
-- **25% CML/Fermata integrity method:** CML and Fermata kept scope, evidence status, verification, and handoff explicit.
+A recent public validation candidate for [OpenAI Agents Python issue #5088](https://github.com/openai/openai-agents-python/issues/5088) gives one concrete engineering example.
 
-This is an estimate of contribution to the process, not a legal authorship, ownership, or upstream-acceptance claim. CML/Fermata is a human-governed method, not a separate author.
+At exact benchmark head `a67a69d0313ea2d216318cf4e05dc431bfde48a7`:
 
-## Public documentation and work record
+- **18 / 18 exact-head CI jobs passed**
+- live Modal workload benchmark: **SUCCESS**
+- shell-read median: **3.4937s**
+- native-read median: **2.7945s**
+- observed code-path median delta: **−20.0%**
+- correctness parity was verified before timing
+- sandbox startup was measured separately and excluded
 
-Public documentation is maintained in the [CML GitHub Work Record](https://github.com/cstolting-collab/CML-GitHub-Work-Record).
+Benchmark: [run 35788913197](https://github.com/cstolting-collab/openai-agents-python/actions/runs/35788913197)  
+Exact-head matrix: [run 35788918171](https://github.com/cstolting-collab/openai-agents-python/actions/runs/35788918171)
 
-It contains:
-- source-linked engineering records
-- exact revisions and validation evidence
-- CI results and unresolved gates
-- dated journals and handoff state
-- CML/Fermata workflow documentation
+That **−20.0%** result belongs to the Modal implementation measurement. It is **not** a claim that CML/Fermata itself saves 20% of human time. A controlled human-time comparison has not yet been measured.
 
-The public record separates **implemented**, **verified**, **observed**, and **unresolved** states. An open pull request is never presented as a completed result, and a local or fork validation run is never presented as upstream acceptance.
+## What CML/Fermata contributed to that work
 
-Current public example: [OpenAI Go PR #932](https://github.com/openai/openai-go/pull/932), where the current contribution was synchronized to upstream, repaired after independent CI exposed a regression-fixture defect, and revalidated through lint, Go 1.25/1.26 tests, supported-version checks, govulncheck, CodeQL, and Castiron. Upstream OpenAI CI authorization remains a separate gate.
+The contribution is easier to describe as **continuity discipline** than as a percentage:
 
-## Available for focused work
+- keep the problem boundary visible
+- preserve evidence through iteration
+- distinguish implementation from verification
+- use lint and CI as feedback rather than decoration
+- require a real workload before making a performance claim
+- retain exact revision identity
+- stop short of claiming upstream acceptance when only fork evidence exists
 
-I am open to well-scoped, evidence-friendly assignments involving:
+That is the part of the work I want people to be able to see.
 
-- GitHub issue or review investigation
-- Small repair preparation with relevant tests
-- Documentation, workflow, and release-readiness review
-- AI-assisted evaluation or continuity-focused tooling
-- Clear technical handoffs for a maintainer's review
+## Evidence language
 
-If you have a bounded task, open an issue with the goal, affected area, constraints, and expected handoff. I will respond with the scope I can honestly support.
+I keep a strict distinction between:
+
+`IMPLEMENTED` · `VERIFIED` · `OBSERVED` · `INFERENCE` · `HYPOTHESIS` · `PROPOSAL` · `UNKNOWN`
+
+A local change is not an upstream merge. A passing fork run is not maintainer acceptance. A benchmark-ready harness is not measured evidence. A measured result is not automatically a production result.
+
+## Public work record
+
+The detailed source-linked record is maintained in the **[CML GitHub Work Record](https://github.com/cstolting-collab/CML-GitHub-Work-Record)**.
+
+Recent evidence:
+
+- [OpenAI Agents Python #5088 — verified Modal performance evidence](https://github.com/cstolting-collab/CML-GitHub-Work-Record/blob/main/journals/2026-09-22.md)
+- [Real-Workload Performance Evidence Standard](https://github.com/cstolting-collab/CML-GitHub-Work-Record/blob/main/standards/real-workload-performance.md)
+- [OpenAI Codex Security #973 validation record](https://github.com/cstolting-collab/CML-GitHub-Work-Record/blob/main/journals/2026-09-22.md#openai-agents-python-5088--native-modal-read-candidate)
+
+## Collaboration
+
+I am interested in bounded, evidence-friendly work involving GitHub issues, validation, technical investigation, documentation, AI evaluation, continuity tooling, and engineering handoffs.
+
+I do not need sole credit for a field to show what I contributed. The foundations belong to many people. This page documents the specific continuity ideas, tools, experiments, and engineering work I am contributing to that larger ecosystem.
 
 ---
 
