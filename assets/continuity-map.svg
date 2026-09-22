@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">Estra Logics Continuity Map</title>
+  <desc id="desc">A subway-style map connecting CML, Fermata, evidence, and human authority through state, handoff, ownership, validation, and release.</desc>
+
+  <rect width="1400" height="760" fill="#10151d"/>
+  <rect x="32" y="32" width="1336" height="696" rx="28" fill="#151d27" stroke="#283645" stroke-width="2"/>
+
+  <text x="82" y="112" fill="#f6f3ed" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="23" font-weight="700" letter-spacing="3">ESTRA LOGICS</text>
+  <text x="82" y="148" fill="#9fb1c3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" letter-spacing="1">CONTINUITY MAP · PUBLIC WORK</text>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M118 270 H1260" stroke="#ef596b" stroke-width="18"/>
+    <path d="M118 500 H370 V410 H660 V500 H1260" stroke="#4ac9c4" stroke-width="18"/>
+    <path d="M118 620 H760 V270 H1260" stroke="#f5bb4b" stroke-width="18"/>
+    <path d="M1070 170 V620" stroke="#9f7aea" stroke-width="18"/>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <rect x="83" y="226" width="108" height="42" rx="21" fill="#ef596b"/>
+    <text x="137" y="253" text-anchor="middle" fill="#10151d" font-size="16" font-weight="700">CML</text>
+    <rect x="83" y="456" width="126" height="42" rx="21" fill="#4ac9c4"/>
+    <text x="146" y="483" text-anchor="middle" fill="#10151d" font-size="16" font-weight="700">FERMATA</text>
+    <rect x="83" y="576" width="126" height="42" rx="21" fill="#f5bb4b"/>
+    <text x="146" y="603" text-anchor="middle" fill="#10151d" font-size="16" font-weight="700">EVIDENCE</text>
+    <rect x="1018" y="127" width="214" height="42" rx="21" fill="#9f7aea"/>
+    <text x="1125" y="154" text-anchor="middle" fill="#10151d" font-size="16" font-weight="700">HUMAN AUTHORITY</text>
+  </g>
+
+  <g fill="#151d27" stroke="#f6f3ed" stroke-width="5">
+    <circle cx="300" cy="270" r="15"/>
+    <circle cx="515" cy="270" r="15"/>
+    <circle cx="760" cy="270" r="19"/>
+    <circle cx="930" cy="270" r="15"/>
+    <circle cx="1070" cy="270" r="20"/>
+
+    <circle cx="370" cy="500" r="15"/>
+    <circle cx="660" cy="500" r="15"/>
+    <circle cx="880" cy="500" r="15"/>
+    <circle cx="1070" cy="500" r="20"/>
+
+    <circle cx="300" cy="620" r="15"/>
+    <circle cx="535" cy="620" r="15"/>
+    <circle cx="760" cy="620" r="19"/>
+    <circle cx="1070" cy="620" r="20"/>
+
+    <circle cx="1070" cy="410" r="15"/>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <g fill="#f6f3ed" font-size="17" font-weight="700">
+      <text x="300" y="228" text-anchor="middle">STATE</text>
+      <text x="515" y="228" text-anchor="middle">HANDOFF</text>
+      <text x="760" y="218" text-anchor="middle">CONTINUITY</text>
+      <text x="930" y="228" text-anchor="middle">VALIDATION</text>
+      <text x="1070" y="228" text-anchor="middle">NEXT ACTOR</text>
+
+      <text x="370" y="548" text-anchor="middle">OBSERVE</text>
+      <text x="660" y="548" text-anchor="middle">HOLD</text>
+      <text x="880" y="548" text-anchor="middle">CHECK</text>
+      <text x="1070" y="548" text-anchor="middle">RELEASE</text>
+
+      <text x="300" y="670" text-anchor="middle">IMPLEMENTED</text>
+      <text x="535" y="670" text-anchor="middle">VERIFIED</text>
+      <text x="760" y="670" text-anchor="middle">OBSERVED</text>
+      <text x="1070" y="670" text-anchor="middle">CLAIM BOUNDARY</text>
+
+      <text x="1110" y="416">APPROVAL</text>
+    </g>
+
+    <g fill="#9fb1c3" font-size="13">
+      <text x="300" y="246" text-anchor="middle">accepted truth</text>
+      <text x="515" y="246" text-anchor="middle">context carried</text>
+      <text x="760" y="244" text-anchor="middle">shared station</text>
+      <text x="930" y="246" text-anchor="middle">evidence checked</text>
+      <text x="1070" y="246" text-anchor="middle">ownership clear</text>
+
+      <text x="370" y="568" text-anchor="middle">read first</text>
+      <text x="660" y="568" text-anchor="middle">do not apply</text>
+      <text x="880" y="568" text-anchor="middle">what changed?</text>
+      <text x="1070" y="568" text-anchor="middle">explicit release</text>
+
+      <text x="300" y="690" text-anchor="middle">built</text>
+      <text x="535" y="690" text-anchor="middle">proven</text>
+      <text x="760" y="690" text-anchor="middle">measured</text>
+      <text x="1070" y="690" text-anchor="middle">not overclaimed</text>
+    </g>
+  </g>
+
+  <circle cx="760" cy="270" r="10" fill="#151d27" stroke="#ef596b" stroke-width="5"/>
+  <circle cx="760" cy="270" r="5" fill="#f5bb4b"/>
+  <circle cx="1070" cy="270" r="10" fill="#151d27" stroke="#ef596b" stroke-width="5"/>
+  <circle cx="1070" cy="500" r="10" fill="#151d27" stroke="#4ac9c4" stroke-width="5"/>
+  <circle cx="1070" cy="620" r="10" fill="#151d27" stroke="#f5bb4b" stroke-width="5"/>
+
+  <text x="1260" y="700" text-anchor="end" fill="#71869b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">TRUST THROUGH CONTINUITY</text>
+</svg>
