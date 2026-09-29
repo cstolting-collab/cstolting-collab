@@ -6,6 +6,12 @@ CML is **Continuity Markup Language**. Fermata is the human-led method around it
 
 ![Continuity Map: CML, Fermata, evidence, and human authority.](assets/continuity-map.svg)
 
+## Collaboration structure
+
+![Standing collaboration estimate: 35% human leadership and authority, 40% AI-assisted technical execution, 25% CML/Fermata integrity method.](assets/collaboration-pie-grid.svg)
+
+These percentages are a **standing collaboration estimate**, not measured human-time savings, productivity, ownership, or completion. Measured engineering results are reported separately.
+
 ## Follow a route
 
 - **CML** — state → handoff → continuity → validation → next actor
@@ -18,6 +24,20 @@ CML is **Continuity Markup Language**. Fermata is the human-led method around it
 - [CML GitHub Work Record](https://github.com/cstolting-collab/CML-GitHub-Work-Record) — public, evidence-bound engineering record
 - [Latest evidence journal](https://github.com/cstolting-collab/CML-GitHub-Work-Record/blob/main/journals/2026-09-22.md)
 - [Performance evidence standard](https://github.com/cstolting-collab/CML-GitHub-Work-Record/blob/main/standards/real-workload-performance.md)
+
+## Outside contributions — current readback
+
+On **29 Sep 2026**, I re-read the public upstream contribution record rather than treating open PRs as completed work.
+
+- **12** external upstream pull requests located
+- **8** remain open
+- **3** were closed after equivalent/original fixes merged upstream
+- **1** was closed unmerged
+- **CISA gh-skeleton #64** has an explicit reviewer approval with the prior blocker resolved
+- **Semantic Kernel #14454** received a new review finding on 28 Sep; the contributor branch was updated on 29 Sep with an `Annotated` metadata fallback and regression coverage
+- open work remains bounded by maintainer review, CI, or explicit validation gaps
+
+[Full 29 Sep contribution audit](https://github.com/cstolting-collab/CML-GitHub-Work-Record/blob/main/journals/2026-09-29.md)
 
 ## One verified engineering result
 
