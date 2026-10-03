@@ -19,6 +19,12 @@ These percentages are a **standing collaboration estimate**, not measured human-
 - **Evidence** — implemented → verified → observed → claim boundary
 - **Human authority** — approval remains explicit for external work and final claims
 
+## Currently accepting issues
+
+I am currently accepting software issues for investigation and repair where the repository is public or I have explicit authorization to work on it.
+
+Work begins with reproduction and evidence. A fix is not treated as complete until its validation state, remaining limitations, and handoff are clear. Open-source investigation does **not** require financial support.
+
 ## Start here
 
 - [CML GitHub Work Record](https://github.com/cstolting-collab/CML-GitHub-Work-Record) — public, evidence-bound engineering record
