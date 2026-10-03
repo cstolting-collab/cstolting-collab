@@ -47,6 +47,18 @@ For [OpenAI Agents Python #5088](https://github.com/openai/openai-agents-python/
 
 > This is a measured implementation result, not a claim of 20% human-time savings.
 
+## Support the work
+
+CML work is contributed with a collaboration-first approach. **Financial support is never required for me to investigate, contribute to, or participate in open-source work.**
+
+If something here has been useful and you would like to support the continued research, testing, tooling, and development behind CML, voluntary support is appreciated.
+
+**Support does not purchase preferred treatment or guarantee a particular issue, fix, pull request, or outcome.**
+
+[Support CML Human-AI Work](https://buy.stripe.com/3cIeVeaOr9QDb3a0ZMgfu00)
+
+Commissioned work is separate: scope, authorization, deliverables, and payment are agreed before work begins.
+
 ## Public boundary
 
 The internal workflow wrapper is not published. The public record shows the ideas, evidence, and engineering outcomes—not private operating mechanics.
