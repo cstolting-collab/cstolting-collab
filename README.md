@@ -1,4 +1,40 @@
-# Sherrie Joseph — Estra Logics
+# Sherrie J — Estra Logics<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560" role="img" aria-labelledby="title desc">
+<title id="title">CML Fermata collaboration allocation estimate</title>
+<desc id="desc">Standing collaboration estimate: 35 percent human leadership and authority, 40 percent AI-assisted technical execution, and 25 percent CML/Fermata continuity and integrity method. These values are estimates, not measured productivity, time savings, ownership, or completion percentages.</desc>
+<rect width="1100" height="560" rx="24" fill="#0d1117"/>
+<text x="42" y="54" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="29" font-weight="700">How the work is divided</text>
+<text x="42" y="83" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="15">Standing collaboration estimate · not measured time savings or ownership</text>
+
+<g transform="translate(205 292)">
+  <circle r="126" fill="#161b22"/>
+  <path d="M0 0 L0 -112 A112 112 0 0 1 65.83 90.61 Z" fill="#a371f7"/>
+  <path d="M0 0 L65.83 90.61 A112 112 0 0 1 -112 0 Z" fill="#3fb950"/>
+  <path d="M0 0 L-112 0 A112 112 0 0 1 0 -112 Z" fill="#58a6ff"/>
+  <circle r="61" fill="#0d1117"/>
+  <text y="-4" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle">CML / Fermata</text>
+  <text y="22" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="13" text-anchor="middle">human-led</text>
+</g>
+
+<g transform="translate(400 132)">
+  <rect width="650" height="100" rx="15" fill="#161b22" stroke="#a371f7"/>
+  <circle cx="46" cy="50" r="12" fill="#a371f7"/>
+  <text x="76" y="43" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="700">40% · AI-assisted technical execution</text>
+  <text x="76" y="70" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="14">Research, implementation help, comparison, drafting, test preparation.</text>
+</g>
+<g transform="translate(400 250)">
+  <rect width="650" height="100" rx="15" fill="#161b22" stroke="#3fb950"/>
+  <circle cx="46" cy="50" r="12" fill="#3fb950"/>
+  <text x="76" y="43" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="700">35% · Human leadership and authority</text>
+  <text x="76" y="70" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="14">Problem choice, judgment, approvals, publication, scope, final claims.</text>
+</g>
+<g transform="translate(400 368)">
+  <rect width="650" height="100" rx="15" fill="#161b22" stroke="#58a6ff"/>
+  <circle cx="46" cy="50" r="12" fill="#58a6ff"/>
+  <text x="76" y="43" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="700">25% · CML / Fermata integrity method</text>
+  <text x="76" y="70" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="14">Continuity, evidence boundaries, handoff state, validation, next actor.</text>
+</g>
+<text x="42" y="525" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="13">Estimate only. It does not measure human-time savings, productivity, authorship, ownership, or completion.</text>
+</svg>
 
 **Continuity engineering for stateful AI and software systems.**
 
